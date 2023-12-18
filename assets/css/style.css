@@ -206,7 +206,7 @@ main {
     padding: 20px 10%;
 }
 
-#signup h2 {
+#signup > h2 {
     color: #FAFAFA;
 }
 
@@ -325,6 +325,28 @@ main {
     /* Gallery */
     #photos {
         column-count: 3;
+    }
+
+    /* Signup page */
+    #signup {
+        background-position: center;
+        position: relative;
+    }
+
+    #signup-form {
+        max-width: 400px;
+        position: absolute;
+        top: 150px;
+        left: 10%
+    }
+
+    .text-input:hover {
+        border-color: #F16C6B;
+    }
+
+    .join-button:hover {
+        background-color: #FAFAFA;
+        color: #454b1b;
     }
 
 }
