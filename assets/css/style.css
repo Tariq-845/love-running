@@ -125,10 +125,6 @@ main {
     text-align: center;
 }
 
-#benefits {
-    line-height: 20px;
-}
-
 #benefits p {
     padding: 0 20px;
 }
@@ -138,12 +134,10 @@ main {
     margin: 5px 0;
 }
 
-#benefits-physical div {
+#benefits-physical > div,
+#benefits-mental > div {
     margin-bottom: 20px;
-}
-
-#benefits-mental div {
-    margin-bottom: 20px;
+    line-height: 20px;
 }
 
 /* Footer */
